@@ -1,3 +1,5 @@
+**Sodium 0.4.10 is still in development! This decision on their end may be changed at any time, and if that is the case, this pack will be removed as it is unnecessary.**
+
 Sodium 0.4.10 includes a change that causes all leaves to look, subjectively, quite bad (like 6-sided grass blocks!) while on Fast graphics. This resource pack makes an attempt to undo the effects of this change, bringing vanilla parity to how fast leaves look. 
 
 Please keep in mind though that this will break fancy leaves, as this pack simply makes all leaves opaque no matter what. You will have to turn off the resource pack when enabling fancy graphics.

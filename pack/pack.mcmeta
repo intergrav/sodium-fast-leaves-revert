@@ -1,6 +1,6 @@
 { 
   "pack": {
-    "pack_format": 12,
-    "description": "Reverts Sodium's fast leaves fix"
+    "pack_format": 13,
+    "description": "Undo Sodium 0.14.11's change to fast leaves"
   }
 }

@@ -1,9 +1,23 @@
-### Update: Jellysquid has stated that this will be fixed and so this resource pack is likely no longer needed. It will remain archived unless anything changes. See the CaffeineMC discord for more information.
+Sodium version 0.4.11 and later includes a change to the fast leaves to fix a mipmapping issue. While the end goal of fixing the issue is achieved, it has a side effect of causing the fast leaves to have a new texture that some users may not like, with the black texture being slightly brighter:
 
-**As of the time of writing this, Sodium 0.4.10 is not fully released yet. It is still in development and this decision could be changed at any time!**
+#### Sodium's new fast leaves
+![Sodium's Fast Leaves](https://i.imgur.com/0ql9uGf.png)
 
-Sodium 0.4.10 includes a change that causes all leaves to look, subjectively, quite bad (like 6-sided grass blocks!) when Fast leaves are used. This resource pack makes an attempt to undo the effects of this change, bringing vanilla parity to how fast leaves look. 
+This pack simply changes these textures back to the Mojang defaults:
 
-Please keep in mind though that this will break fancy leaves, as this pack achieves its goal by simply making all leaves opaque no matter what. You will have to turn off the resource pack when enabling fancy graphics.
+#### Fast leaves revert
+![Fast Leaves Revert](https://i.imgur.com/8IJyaNK.png)
 
-![Leaves comparison](https://cdn.discordapp.com/attachments/977987491233677374/1077246193924579398/ezgif-3-8b588e4069.webp)
+### Please keep in mind that this will break fancy leaves, as this pack does it's thing by simply making all leaves opaque no matter what. You will have to turn off the resource pack when enabling fancy graphics.
+
+<details>
+
+<summary>Why was this made?</summary>
+
+Originally, this pack was created because during development of Sodium 0.4.10 they had suggested a solution that looked like this, almost like better grass on trees!
+
+![Old solution to the mipmapping issue](https://i.imgur.com/tGY0lem.jpg)
+
+They had then realized that it made leaves look very bad, and went with a different approach to solving it - utilizing the Vanilla Tweaks "nicer fast leaves" texture. It definitely looks better now - but I'll leave this pack up as it could still be viable for some people.
+
+</details> 
